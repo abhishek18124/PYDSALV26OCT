@@ -1,0 +1,16 @@
+# print("hello")
+# print("hi")
+# print(10)
+# print(3.14)
+# print(True)
+# print(False)
+# print(10 + 20)
+# print(2 * 5)
+# print("10 + 20")
+# print(print("tuesday"))
+
+# print("hello", 10, 3.14, True, 1 + 2, sep="/")
+
+print("hi", 1, True, end="\n")
+print("bye", 2, False, end="$")
+print("hey", 3, 10 + 20, end="$")
