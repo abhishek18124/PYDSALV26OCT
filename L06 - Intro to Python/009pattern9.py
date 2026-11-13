@@ -1,0 +1,17 @@
+n = int(input())
+
+for i in range(1, n + 1):
+    # for the ith row print n-i+1 characters starting from "A" in inc. order
+    ch = "A"
+    for _ in range(n - i + 1):
+        print(ch, end="")
+        ch = chr(ord(ch) + 1)
+
+    ch = chr(ord(ch) - 1)
+
+    # followed by n-i+1 characters in dec. order
+    for _ in range(n - i + 1):
+        print(ch, end="")
+        ch = chr(ord(ch) - 1)
+
+    print()
